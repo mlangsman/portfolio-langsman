@@ -107,6 +107,13 @@ nav .nav-item.nav-link
 	line-height: 20px;
 }
 
+.hero img
+{
+	display: block;
+	margin: auto;
+
+}
+
 /* OTHER */
 
 .snake
