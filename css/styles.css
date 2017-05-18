@@ -147,3 +147,8 @@ nav .nav-item.nav-link
 {
 	margin: auto;
 }
+
+p.highlight
+{
+	color: #76C450;
+}
