@@ -193,3 +193,19 @@ p.highlight
 	padding-right: 10px;
 	margin-top: 20px;
 }
+
+.work-tiles a
+{
+	margin-right: 30px;
+}
+
+.work-tiles a:last-of-type
+{
+	margin-right: 0;
+}
+
+.work-tiles a:hover
+{
+	-webkit-filter: sepia; /*sepia, hue-rotate, invert....*/
+-webkit-filter: brightness(95%); 
+}
