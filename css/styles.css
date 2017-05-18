@@ -127,3 +127,23 @@ nav .nav-item.nav-link
 	padding-left: 0;
 }
 
+.skills p
+{
+	font-family: 'and_black';
+	color: #B0B0B0;
+	font-size: 14px;
+	line-height: 18px;
+	margin: 0 30px 0 0;	
+	text-align: right;
+	width: 100px;
+}
+
+.skills li
+{
+	margin-top: 10px;
+}
+
+.skills img
+{
+	margin: auto;
+}
