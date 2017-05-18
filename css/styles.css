@@ -182,3 +182,12 @@ p.highlight
 {
 	margin-top: 50px;
 }
+
+.quote-container .attribution
+{
+	text-align: right;
+	font-family: 'roboto';
+	color: #444;
+	font-size: 20px;
+	font-weight: 100;
+}
