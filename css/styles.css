@@ -206,6 +206,5 @@ p.highlight
 
 .work-tiles a:hover
 {
-	-webkit-filter: sepia; /*sepia, hue-rotate, invert....*/
--webkit-filter: brightness(95%); 
+	-webkit-filter: brightness(95%); 	
 }
