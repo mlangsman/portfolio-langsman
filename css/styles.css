@@ -47,6 +47,7 @@ p.quote
 	padding-left: 40px;
 	padding-top: 15px; 
 	margin-left: -40px;
+	margin-top: 40px;
 	
 
 }
@@ -85,12 +86,17 @@ p.quote
 	font-size: 14px;
 	text-align: center;
 	padding: 20px 60px;
+	margin-top: 40px !important;
 
 }
 
 .btn-primary:hover
 {
 	background-color: #56A131;
+}
+
+.btn-primary:focus, .btn-primary:active, .btn:focus, .btn:active {
+   outline: none !important;
 }
 
 /* NAVIGATION */
@@ -213,3 +219,10 @@ p.highlight
 {
 	-webkit-filter: brightness(95%); 	
 }
+
+.wide
+{
+	margin-right: 100px;
+}
+
+#work {text-decoration: none !important; border: none;}
