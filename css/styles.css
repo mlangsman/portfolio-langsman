@@ -18,6 +18,11 @@ p {
 	line-height: 30px;
 }
 
+p.work-summary
+{
+	font-size: 16px;
+}
+
 h1 {
 	font-family: 'and_black';
 	color: #757575;
@@ -48,8 +53,6 @@ p.quote
 	padding-top: 15px; 
 	margin-left: -40px;
 	margin-top: 40px;
-	
-
 }
 
 .heavy {
@@ -226,3 +229,37 @@ p.highlight
 }
 
 #work {text-decoration: none !important; border: none;}
+
+ul.work-meta 
+{
+	font-family: 'and_black';
+	font-size: 14px;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+ul.work-meta li
+{
+	margin-bottom: 10px;
+}
+
+ul.work-meta span
+{
+	color: #B0B0B0;
+	margin-right: 20px;
+	width: 60px;
+	display: inline-block;
+}
+
+p.work-summary
+{
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+img.work-example
+{
+	width: 100%;
+	margin-bottom: 60px;
+}
