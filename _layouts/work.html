@@ -1,0 +1,59 @@
+
+	{% include header.html %}
+
+  	{% include nav.html %}
+
+	<div class="container">
+		<div class="row mb-5">
+			<div class="col d-flex flex-column justify-content-center align-items-center">
+				<h2>{{ page.client }}</h2>
+				<p class="sub-headline mt-4">Visual design for an app with 4m+ users</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col">
+				<ul class="work-meta">
+					<li><span>CLIENT: </span>{{ page.client }}</li>
+					<li><span>PROJECT:</span>{{ page.project }}</li>
+				</ul>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="col">
+				<p class="work-summary">{{page.summary}}</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col">
+				<img class="work-example" src="{{ site.baseurl }}/img/work-examples/work-example-1.jpg" />
+				<img class="work-example" src="{{ site.baseurl }}/img/work-examples/work-example-2.jpg" />
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col">
+				<p class="work-summary">I also took part in a number of hack days where I created prototypes for a Google Wear android app and banking app enhancements for customers with mental health issues. </p>
+			</div>
+		</div>
+
+	</div>
+
+
+
+	<div class="row">
+		<div class="col d-flex dark-section flex-column hero justify-content-center align-items-center mb-5">
+			<h1>let's work together.</h1>
+			<a href="mailto:marc@langsman.com"><button class="btn-primary">get in touch</button></a>
+		</div>
+	</div>
+
+
+
+	{{ content }}
+
+	{% include footer.html %}
+

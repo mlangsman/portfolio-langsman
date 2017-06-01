@@ -242,6 +242,7 @@ ul.work-meta
 ul.work-meta li
 {
 	margin-bottom: 10px;
+	text-transform: uppercase;
 }
 
 ul.work-meta span
@@ -250,6 +251,7 @@ ul.work-meta span
 	margin-right: 20px;
 	width: 60px;
 	display: inline-block;
+
 }
 
 p.work-summary
