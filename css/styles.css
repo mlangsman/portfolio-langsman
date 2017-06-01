@@ -220,7 +220,22 @@ p.highlight
 
 .work-tiles a:hover
 {
-	-webkit-filter: brightness(95%); 	
+	 /* -webkit-filter: brightness(100%); */
+	 transform: scale(2); 
+	 box-shadow: 10 10 10 rgba(255,255,255,1);
+
+}
+
+.work-tiles img
+{
+	/* -webkit-filter: brightness(95%); */
+	transform: scale(1.0) !important;
+    transition: transform 0.3s;
+}
+.work-tiles img:hover
+{
+	transform: scale(1.1) !important;
+    transition: transform 0.3s;
 }
 
 .wide
