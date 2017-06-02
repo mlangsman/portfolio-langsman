@@ -56,7 +56,8 @@ p.quote
 }
 
 .heavy {
-	font-family: roboto-regular, sans-serif;
+	font-family: roboto, sans-serif;
+	font-weight: 400;
 }
 
 /* SECTIONS */
