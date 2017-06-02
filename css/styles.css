@@ -90,12 +90,19 @@ p.quote
 	text-align: center;
 	padding: 20px 60px;
 	margin-top: 40px !important;
+	transition: all 0.4s ease 0s;
 
 }
 
 .btn-primary:hover
 {
 	background-color: #56A131;
+	transform: scale(1.02); 
+	-webkit-box-shadow: 0px 22px 44px -11px rgba(0,0,0,0.21);
+-moz-box-shadow: 0px 22px 44px -11px rgba(0,0,0,0.21);
+box-shadow: 0px 22px 44px -11px rgba(0,0,0,0.21);
+
+
 }
 
 .btn-primary:focus, .btn-primary:active, .btn:focus, .btn:active {
@@ -109,8 +116,16 @@ nav .nav-item.nav-link
 	font-family: 'and_black';
 	color: #B0B0B0 !important;
 	font-size: 18px;
+	transition: all 0.4s ease 0s;
+
 
 }
+
+nav .nav-item.nav-link:hover
+{
+	color: #707070 !important;
+}
+
 
 .navbar
 {
@@ -211,6 +226,7 @@ p.highlight
 .work-tiles a
 {
 	margin-right: 30px;
+	transition: all 0.4s ease 0s;
 }
 
 .work-tiles a:last-of-type
@@ -222,7 +238,7 @@ p.highlight
 {
 	 /* -webkit-filter: brightness(100%); */
 	 transform: scale(2); 
-	 box-shadow: 10 10 10 rgba(255,255,255,1);
+
 
 }
 
@@ -236,6 +252,9 @@ p.highlight
 {
 	transform: scale(1.1) !important;
     transition: transform 0.3s;
+
+ 
+
 }
 
 .wide
@@ -280,3 +299,76 @@ img.work-example
 	width: 100%;
 	margin-bottom: 60px;
 }
+
+/* ANIMATIONS */
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+  60% {
+    -webkit-transform: translateY(-7px);
+    transform: translateY(-7px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+
+.bounce {
+  -moz-animation: bounce 2s 1;
+  -webkit-animation: bounce 2s 1;
+  animation: bounce 2s 1;
+}
+
+
+
+/*
+
+@keyframes spin {
+  100% {transform: rotate(1turn); }
+}
+
+ img.spin
+{   
+	  animation: spin 0.5s linear 1;
+	    animation-play-state: running;
+}
+
+*/
