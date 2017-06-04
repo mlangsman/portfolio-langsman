@@ -228,6 +228,11 @@ p.highlight
 {
 	margin-right: 30px;
 	transition: all 0.4s ease 0s;
+	   -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .work-tiles a:last-of-type
@@ -248,14 +253,22 @@ p.highlight
 	/* -webkit-filter: brightness(95%); */
 	transform: scale(1.0) !important;
     transition: transform 0.3s;
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 .work-tiles img:hover
 {
 	transform: scale(1.1) !important;
     transition: transform 0.3s;
 
- 
+}
 
+.work-tiles a:active
+{
+	-webkit-filter: brightness(90%);
 }
 
 .wide
