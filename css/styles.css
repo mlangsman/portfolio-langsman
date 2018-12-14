@@ -86,6 +86,12 @@ p.quote
 }
 .work-section{
   margin-top: 100px;
+  margin-bottom:200px;
+}
+
+.work-section p{
+  max-width: 600px;
+  text-align: center;
 }
 .dark-section
 {
@@ -221,7 +227,7 @@ nav .nav-item.nav-link:hover
 .client-section
 {
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 /* OTHER */
