@@ -1,16 +1,6 @@
 /* TYPOGRAPHY */
 
 @font-face {
-    font-family: "and_light";
-    src: url("../fonts/and_light.woff") format('woff');
-}
-
-@font-face {
-    font-family: "and_black";
-    src: url("../fonts/and_black.woff") format('woff');
-}
-
-@font-face {
     font-family: "dala_floda_bold";
     src: url("../fonts/dala-floda-bold.ttf");
 }
@@ -37,7 +27,7 @@ p.bold
 }
 p.work-summary
 {
-	font-size: 16px;
+	font-size: 20px;
 }
 
 h1 {
@@ -82,6 +72,21 @@ p.quote
 
 /* SECTIONS */
 
+.callout
+{
+  position:relative;
+  vertical-align: top;
+}
+
+.callout img
+{
+  position:absolute;
+  right:-150px;
+  top: -200px;
+}
+.work-section{
+  margin-top: 100px;
+}
 .dark-section
 {
 	background-image: url("../img/section_top@2x.jpg"), url("../img/section_bottom@2x.jpg");
@@ -102,7 +107,7 @@ p.quote
 /* DIVIDER */
 
 hr.divider{
-  max-width:400px;
+  width:400px;
   display: block;
   position: relative;
   top: -10px;
@@ -221,37 +226,7 @@ nav .nav-item.nav-link:hover
 
 /* OTHER */
 
-.container-fluid
-{
-	padding-left: 0;
-}
 
-.skills p
-{
-	font-family: 'and_black';
-	color: #B0B0B0;
-	font-size: 14px;
-	line-height: 18px;
-	margin: 0 30px 0 0;
-	text-align: right;
-	width: 100px;
-}
-
-.skills li
-{
-	margin-top: 10px;
-}
-
-.skills img
-{
-	margin: 0;
-}
-
-.skills img.divider
-{
-	margin-left: 43px;
-	margin-right: 43px;
-}
 
 p.highlight
 {
@@ -341,7 +316,8 @@ p.highlight
 
 ul.work-meta
 {
-	font-family: 'and_black';
+	font-family: 'futura-pt';
+  font-weight: 600;
 	font-size: 14px;
 	list-style: none;
 	margin-left: 0;
