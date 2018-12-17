@@ -20,11 +20,13 @@ p {
 	line-height: 30px;
 }
 
-p.bold
+p.bold, span.bold
 {
   font-family: futura-pt, sans-serif;
   font-weight: 500;
 }
+
+
 p.work-summary
 {
 	font-size: 20px;
@@ -46,6 +48,14 @@ h2 {
   font-family: 'dala_floda_roman', serif;
 	font-size: 28px;
 	color: #454545;
+}
+
+h3 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  font-size: 21px;
+  letter-spacing: 2 px;
+  text-transform: uppercase;
 }
 
 p.quote
@@ -93,6 +103,12 @@ p.quote
   max-width: 600px;
   text-align: center;
 }
+
+.work-section-2-col
+{
+  max-width: 900px;
+}
+
 .dark-section
 {
 	background-image: url("../img/section_top@2x.jpg"), url("../img/section_bottom@2x.jpg");
@@ -108,6 +124,14 @@ p.quote
 {
 	max-width: 500px;
 	text-align: center;
+}
+
+/* UTILITY */
+
+.shift-up
+{
+  position: relative;
+  top: -50px;
 }
 
 /* DIVIDER */
