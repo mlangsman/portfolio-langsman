@@ -50,6 +50,13 @@ h2 {
 	color: #454545;
 }
 
+h2.work-section
+{
+  font-family: 'dala_floda_bold', serif;
+  margin: 0px 0px;
+  color: #454545;
+}
+
 h3 {
   font-family: futura-pt, sans-serif;
   font-weight: 300;
@@ -81,6 +88,11 @@ p.quote
 }
 
 /* SECTIONS */
+
+.container-work
+{
+  max-width: 800px;
+}
 
 .callout
 {
