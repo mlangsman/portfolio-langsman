@@ -55,6 +55,8 @@ h2.work-section
   font-family: 'dala_floda_bold', serif;
   margin: 0px 0px;
   color: #454545;
+  margin-bottom:30px;
+  margin-top: 0px;
 }
 
 h3 {
@@ -106,6 +108,7 @@ p.quote
   right:-150px;
   top: -200px;
 }
+
 .work-section{
   margin-top: 100px;
   margin-bottom:200px;
@@ -364,6 +367,7 @@ ul.work-meta
 	list-style: none;
 	margin-left: 0;
 	padding-left: 0;
+  margin-bottom:60px;
 }
 
 ul.work-meta li
@@ -383,14 +387,32 @@ ul.work-meta span
 
 p.work-summary
 {
-	margin-top: 30px;
-	margin-bottom: 60px;
+	/* margin-top: 30px;
+	margin-bottom: 60px;*/
+}
+
+img.responsive
+{
+	width: 100%;
 }
 
 img.work-example
 {
-	width: 100%;
-	margin-bottom: 60px;
+  width: 100% !important;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+figure{
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+figcaption{
+  text-align: center;
+  margin-top:20px;
+  color: #818181;
+  font-size: 12px;
 }
 
 /* ANIMATIONS */
