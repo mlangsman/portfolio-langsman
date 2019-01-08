@@ -124,6 +124,10 @@ p.quote
   max-width: 900px;
 }
 
+.work-footer{
+  margin-top: 200px;
+}
+
 .dark-section
 {
 	background-image: url("../img/section_top@2x.jpg"), url("../img/section_bottom@2x.jpg");
