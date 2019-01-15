@@ -145,6 +145,11 @@ p.quote
 	text-align: center;
 }
 
+.invision-prototype {
+  margin: 0 auto;
+  display: block;
+}
+
 /* UTILITY */
 
 .shift-up
