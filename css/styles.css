@@ -260,6 +260,7 @@ nav .nav-item.nav-link:hover
 .hero-section
 {
   margin-top: 150px;
+  margin-bottom: 100px !important;
 }
 
 .hero-image
