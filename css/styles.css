@@ -91,6 +91,9 @@ p.quote
 
 /* SECTIONS */
 
+.about {
+  padding-right: 80px;
+}
 .container-work
 {
   max-width: 800px;
