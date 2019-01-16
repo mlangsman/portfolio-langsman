@@ -105,8 +105,9 @@ p.quote
 .callout img
 {
   position:absolute;
-  right:-150px;
-  top: -200px;
+  /* right:-150px;*/
+  right: -70px;
+  top: -260px;
 }
 
 .work-section{
@@ -167,6 +168,11 @@ hr.divider{
   top: -10px;
 
 }
+
+
+
+
+
 /* BUTTONS */
 
 .btn-primary
@@ -270,8 +276,16 @@ nav .nav-item.nav-link:hover
 
 .logos
 {
-  margin-top:40px;
+  margin-top:80px;
 }
+
+.logo{
+  width: 174px;
+  height: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .client-section
 {
     margin-top: 100px;
@@ -307,6 +321,10 @@ p.highlight
 {
 	padding-top: 550px !important;
 	padding-bottom: 550px !important;
+}
+
+.work-tiles{
+  margin-bottom:60px;
 }
 
 .work-tiles .fudge
