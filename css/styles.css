@@ -11,12 +11,12 @@
 }
 
 a {
-  color: #454545;
+  color: #454545 !important;
   text-decoration: underline;
 }
 
 a:hover {
-  color:  #FF2828
+  color:  #FF2828 !important;
 }
 
 p {
