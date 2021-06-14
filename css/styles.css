@@ -6,10 +6,18 @@
 }
 
 @font-face {
-    font-family: "dala_floda_roman";
+    font-family: "dala_floda_r
     src: url("../fonts/DalaFlodaRoman.otf");
 }
 
+a {
+  color: #454545;
+  text-decoration: underline;
+}
+
+a:hover {
+  color:  #FF2828
+}
 
 p {
   font-family: futura-pt, sans-serif;
@@ -17,13 +25,18 @@ p {
   font-style: normal;
 	font-size: 20px;
 	color: #454545;
-	line-height: 30px;
+	line-height: 32px;
 }
 
 p.bold, span.bold
 {
   font-family: futura-pt, sans-serif;
   font-weight: 500;
+}
+
+p.big {
+  font-size: 26px;
+  line-height: normal;
 }
 
 
@@ -274,7 +287,7 @@ nav .nav-item.nav-link:hover
 .hero-section
 {
   margin-top: 150px;
-  margin-bottom: 100px !important;
+  margin-bottom: 0px !important;
 }
 
 .hero-image
