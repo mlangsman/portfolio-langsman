@@ -61,6 +61,7 @@ h2 {
   font-family: 'dala_floda_roman', serif;
 	font-size: 28px;
 	color: #454545;
+  line-height: 34px;
 }
 
 h2.work-section
@@ -265,6 +266,7 @@ nav .nav-item.nav-link
 	color: #A2A2A2 !important;
 	font-size: 18px;
 	transition: all 0.4s ease 0s;
+  text-decoration: none;
 
 
 }
